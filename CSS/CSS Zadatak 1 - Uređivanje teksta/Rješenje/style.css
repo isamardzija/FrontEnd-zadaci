@@ -1,0 +1,46 @@
+h1 {
+  font-size: 48px;
+  text-decoration: underline;
+  color: orange;
+}
+
+a {
+  font-weight: bold;
+  color: darkblue;
+  font-family: sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: salmon;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 8px #888;
+}
+
+p {
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+}
+
+form {
+  text-align: center;
+  color: orangered;
+  border: 2px solid black;
+}
+
+label {
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+#kontakt p {
+  font-weight: bold;
+}
+
+address {
+  color: grey;
+  font-size: 8px;
+  text-align: right;
+  font-style: italic;
+}
