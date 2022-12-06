@@ -1,0 +1,30 @@
+h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #3f5c8a;
+}
+
+h2 + p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(44, 44, 96);
+}
+
+section#zemljopis {
+  border: 3px solid aliceblue;
+}
+
+main section {
+  background-color: lightgrey;
+}
+
+h2 {
+  background-color: rgb(241, 200, 123);
+}
+
+section#povijest p {
+  color: white;
+}
+
+section#povijest {
+  background-image: url(./images/pattern.jpg);
+}
