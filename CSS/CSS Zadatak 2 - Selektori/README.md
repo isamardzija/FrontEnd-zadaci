@@ -1,5 +1,6 @@
 ## CSS Zadatak 2 | Selektori
 
+*Prvo malo ponavljanja...*
 1. Postavljeni `<nav>` element sadrži linkove na sadržaj stranice, no oni trenutno nisu u funkciji. Potrebno je promjeniti kod kako bi linkovi vodili na ispravne sekcije unutar web stranice.
 
 2. Kreiraj `style.css` datoteku i poveži ju sa postojećom HTML datotekom.
