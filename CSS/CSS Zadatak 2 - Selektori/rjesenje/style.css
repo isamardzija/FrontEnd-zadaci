@@ -5,6 +5,10 @@ h3 {
   text-align: center;
 }
 
+h1 {
+  font-size: 48px;
+}
+
 main p {
   color: darkolivegreen;
 }

@@ -37,4 +37,4 @@ _Prvo malo ponavljanja..._
    - _drugi po redu_ `<li>` element unutar `<ul>` elementa **podebljaj** na vrijednost `800`
    - _prvo slovo_ svakog `<p>` elementa **podebljaj** te mu promjeni **veličinu** na `24px`
 
-10. Kreiraj CSS klasu `vazno` sa sljedećim deklaracijama `font-weight: 800, color: red, font-style: italic`, te ga primjeni na prvi `<p>` element ispod podnaslova "Štovanje"
+10. Kreiraj CSS klasu `.vazno` sa sljedećim deklaracijama `font-weight: 800, color: red, font-style: italic`, te ju primjeni na prvi `<p>` HTML element ispod podnaslova "Štovanje"
