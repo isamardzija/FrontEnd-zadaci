@@ -23,8 +23,15 @@ h2 {
 
 section#povijest p {
   color: white;
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 section#povijest {
-  background-image: url(./images/pattern.jpg);
+  background-image: url(./images/hvar-lesina-1200x800.jpg);
+}
+
+section#kultura {
+  background-image: url(./images/tin-kolumbic.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }

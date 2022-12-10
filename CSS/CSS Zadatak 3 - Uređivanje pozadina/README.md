@@ -5,4 +5,5 @@
 3. Koristeći **selektor atributa id**, `<section>`-u u kojemu je podnaslov "Zemljopis" dodijelite obrub debljine `3px`, `aliceblue` boje
 4. Svim `<section>` elementima unutar `<main>` elementa dodijeli **pozadinu boje** `lightgrey`
 5. Svim `<h2>` elementima dodijeli boju pozadine `rgb(241, 200, 123)`
-6. Na element `<section id="povijest">` kao `background-image` primjeni datoteku `images/pattern.jpg`. Također svim `<p>` elementima unutar tog `<section>` elementa promjeni **boju** u bijelu.
+6. Na element `<section id="povijest">` kao `background-image` primjeni datoteku `images/hvar-lesina-1200x800.jpg`. Također svim `<p>` elementima unutar tog `<section>` elementa promjeni **boju teksta** u bijelu, a **boju pozadine** u `background-color: rgba(0, 0, 0, 0.75);`
+7. Na posljednji `<section>` element unutar `<body>` elementa uz pomoć **selektora ID** primjeni kao **pozadinsku sliku** datoteku `images/tin-kolumbic.png`. Pozadinska slika treba biti **pozicionirana** u donjem desnom kutu te se **ne treba ponavljati**.
