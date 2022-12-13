@@ -1,0 +1,35 @@
+body {
+  font-family: "Source Serif Pro", serif;
+}
+
+p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+h1,
+h2,
+h3 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+nav {
+  background-color: dimgrey;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+article {
+  background-image: url(../images/hoboken.jpg);
+  border: 2px solid black;
+}
+
+article p {
+  color: white;
+  background-color: rgb(128, 128, 128, 0.7);
+}
+
+section#zivotopis section {
+  background-color: rgb(207, 207, 207);
+}
