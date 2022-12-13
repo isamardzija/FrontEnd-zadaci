@@ -28,7 +28,7 @@
     - Promjeni mu **širinu** na `600px`
     - **Podebljaj** mu tekst na vrijednost `700`
     - Postavi mu **desnu marginu** na nultu vrijednost, a lijevu na vrijednost `auto` kako bi se element pozicionirao u desnu stranu
-12. Koristeći kombinaciju ID selektora i pseudo-selektora, ¸odaberi zadnji `<section>`i:
+12. Koristeći kombinaciju ID selektora i pseudo-selektora, odaberi zadnji `<section>` koji se nalazi unutar Životopis sekcije i:
     - Postavi mu **širinu** na `500px` te ga **centriraj** pomoću margina
     - Za **sliku pozadine** postavi sliku `Frank_Sinatra_grave.jpg`
     - Prikaži cijelu pozadinsku sliku unutar elementa uz pomoć svojstva `background-size`
