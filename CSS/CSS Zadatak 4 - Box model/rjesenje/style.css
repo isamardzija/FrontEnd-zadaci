@@ -18,6 +18,11 @@ nav {
   background-color: dimgrey;
   padding-bottom: 5px;
   padding-top: 5px;
+  font-weight: 700;
+}
+
+nav a {
+  color: honeydew;
 }
 
 article {
@@ -28,8 +33,71 @@ article {
 article p {
   color: white;
   background-color: rgb(128, 128, 128, 0.7);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+article img {
+  margin-left: 20px;
+  border: 5px solid black;
+}
+
+strong:first-child {
+  color: goldenrod;
+  font-size: 20px;
+}
+
+strong:last-child {
+  text-decoration: underline;
 }
 
 section#zivotopis section {
   background-color: rgb(207, 207, 207);
+  padding-inline: 10px;
+}
+
+#ranoDoba {
+  width: 800px;
+  margin: auto;
+  border: 3px dashed black;
+  border-radius: 20px;
+}
+
+section#ranoDoba + section {
+  width: 800px;
+  margin: auto;
+}
+
+section#ranoDoba + section img {
+  width: 100%;
+}
+
+section:nth-child(4) {
+  width: 600px;
+  font-weight: 700;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+#zivotopis section:last-child {
+  width: 500px;
+  margin: auto;
+  background-image: url(../images/Frank_Sinatra_grave.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 100px;
+}
+
+aside ul {
+  background-color: salmon;
+  padding: 30px 200px;
+}
+
+aside ul > li {
+  margin-top: 10px;
+}
+
+aside ul li:nth-child(2n + 1) {
+  background-color: rgb(255, 77, 58);
 }
