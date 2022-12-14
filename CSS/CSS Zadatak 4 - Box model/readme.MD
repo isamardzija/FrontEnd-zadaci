@@ -1,3 +1,9 @@
+# Walkthrough
+
+[YouTube](https://www.youtube.com/watch?v=3fpCuh5CWzg)
+
+# Zadatak
+
 1. Unutar `<header>` elementa kreiraj `<nav>` izbornik  koji treba imati poveznice na sva 3 `<h2>` elementa unutar dokumenta, kao i dvije vanjske poveznice na sljedeće URL-ove: `https://en.wikipedia.org/wiki/Frank_Sinatra` (Wikipedia) i `https://www.imdb.com/name/nm0000069/`(IMDB)
 2. Importajte font `https://fonts.google.com/specimen/Source+Serif+Pro`u stilovima **Regular 400** i **Bold 700** u vaš dokument te ga **primjenite kao font** na sve elemente u vašem dokumentu.
 3. Promjenite **veličinu** svih `<p>` elemenata na `16px` te im postavite `text-align: justify;`.
