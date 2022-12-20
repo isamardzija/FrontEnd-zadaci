@@ -1,0 +1,113 @@
+/* CSS RESET  */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* LAYOUT */
+
+body {
+  padding: 1rem;
+  font-family: "Hind", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 1rem;
+  border-bottom: 2px solid black;
+  background-color: bisque;
+  text-align: center;
+}
+
+header h1 {
+  color: rgba(201, 111, 0);
+}
+
+header span {
+  font-family: "La Belle Aurore", cursive;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* BODY  */
+
+div.body-container {
+  display: flex;
+  gap: 1rem;
+}
+
+main {
+  flex-basis: 90%;
+}
+
+main article {
+  background-color: rgb(255, 245, 234);
+  margin-top: 2rem;
+  overflow: auto;
+}
+
+main article p,
+main article img {
+  padding-inline: 2rem;
+}
+
+main article h2 {
+  text-decoration: underline;
+  background-color: bisque;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+main article p {
+  text-align: justify;
+}
+
+main article img {
+  width: max(40%, 600px);
+  float: left;
+  padding-right: 1rem;
+}
+
+/* ASIDE */
+
+aside {
+  background-color: rgb(255, 175, 166);
+  flex-basis: 10%;
+  margin-top: 2rem;
+}
+
+aside ul {
+  list-style-type: none;
+  padding-inline: 1rem;
+  margin: auto;
+}
+
+aside ul li {
+  font-weight: bold;
+  padding-block: 1rem;
+}
+
+aside ul li:first-child {
+  margin-top: 2rem;
+}
+
+aside ul li a {
+  color: brown;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+@media only screen and (max-width: 460px) {
+  div.body-container {
+    display: block;
+  }
+}

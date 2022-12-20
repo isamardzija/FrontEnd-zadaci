@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Hind", sans-serif;
+  padding: 1em;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+/* HEADER  */
+
+header {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 1em;
+  border-bottom: 2px solid black;
+  background-color: bisque;
+}
+
+header h1 {
+  color: rgb(201, 111, 0);
+}
+
+header span {
+  font-family: "La Belle Aurore", cursive;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* BODY  */
+
+div.body-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+/* MAIN  */
+
+main {
+  flex-basis: 90%;
+}
+
+main article {
+  background-color: rgb(255, 245, 234);
+  margin-top: 2rem;
+}
+
+main article p,
+main article img {
+  padding-inline: 2rem;
+}
+
+main article h2 {
+  text-decoration: underline;
+  background-color: bisque;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+main article p {
+  text-align: justify;
+}
+
+main article img {
+  width: max(40%, 600px);
+  float: left;
+  padding-right: 1em;
+}
+
+/* ASIDE  */
+
+aside {
+  background-color: rgb(255, 175, 166);
+  margin-top: 2rem;
+  flex-basis: 10%;
+}
+
+aside ul {
+  list-style: none;
+  padding-inline: 1rem;
+  width: 50%;
+  margin: auto;
+}
+
+aside ul li {
+  font-weight: bold;
+  padding-block: 1rem;
+}
+aside ul li:first-child {
+  margin-top: 2rem;
+}
+
+aside ul li a {
+  color: brown;
+  text-decoration: none;
+}
