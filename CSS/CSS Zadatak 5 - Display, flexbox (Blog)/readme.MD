@@ -2,7 +2,7 @@
 
 Pozdrav svima i dobro došli u današnji CSS zadatak. Današnji cilj je napraviti blog koji izgleda ovako koristeći samo HTML i CSS. HTML datoteku kao i ostale resurse možete preuzeti na Github repozitoriju.
 
-![test](./bubblesblog_finished_preview.png)
+![site_preview](./bubblesblog_finished_preview.png)
 
 ## Pregled HTML-a
 
@@ -34,3 +34,5 @@ Pogledajmo sada našu željenu web stranicu.
 Primjećujemo da su naša tri glavna elementa posložena na način da se `<header>` proteže cijelom širinom te se naravno nalazi na samom vrhu stranice.
 
 `<main>` i `<aside>` dijele preostali prostor, s tim da `<main>` zauzima veliku većinu širine. Oba elementa se protežu čitavom visinom stranice.
+
+![layout](./layout.png)
