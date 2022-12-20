@@ -16,21 +16,9 @@ Za početak ćemo pregedati naš HTML dokument. Primjećujemo da unutar `<body>`
     - `<h2>`
     - `<img>`
     - `<p>`
-  - ### `<article>`
-    - `<h2>`
-    - `<img>`
-    - `<p>`
-  - ### `<article>`
-    - `<h2>`
-    - `<img>`
-    - `<p>`
 - ## `<aside>`
   - ### `<nav>`
     - **`<ul>`**
-      - `<li>`
-      - `<li>`
-      - `<li>`
-      - `<li>`
       - `<li>`
 
 ## Pregled web stranice
