@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Kalkulator</h1>
+      <form>
+        <div class="prvi">
+          <label for="prvi">Unesite prvi broj:</label>
+          <input type="number" name="prvi" id="prvi" />
+        </div>
+        <div class="drugi">
+          <label for="drugi">Unesite drugi broj:</label>
+          <input type="number" name="drugi" id="drugi" />
+        </div>
+        <div class="tipke">
+          <button type="button" class="tipka" id="zbrajanje">+</button>
+          <button type="button" class="tipka" id="oduzimanje">-</button>
+          <button type="button" class="tipka" id="mnozenje">*</button>
+          <button type="button" class="tipka" id="dijeljenje">/</button>
+        </div>
+        <div class="rezultat">
+          <label for="rezultat">Rezultat:</label>
+          <input readonly type="text" name="rezultat" id="rezultat" />
+        </div>
+      </form>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
